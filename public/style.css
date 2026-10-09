@@ -1,0 +1,76 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4f9;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #17324d;
+    text-align: center;
+}
+
+p {
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+label {
+    font-weight: bold;
+    color: #17324d;
+}
+
+input, select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 13px;
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #104b7b;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+.appointment {
+    padding: 15px;
+    margin-top: 12px;
+    background-color: #f0f6fb;
+    border-left: 4px solid #1769aa;
+    border-radius: 5px;
+    overflow-wrap: anywhere;
+}
+
+h2 {
+    color: #17324d;
+    margin-top: 30px;
+}
